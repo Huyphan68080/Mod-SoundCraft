@@ -10,6 +10,15 @@
 
 ---
 
+## 📦 Tải về (Downloads)
+
+Bạn có thể tải các bản build sẵn trực tiếp tại [Trang phát hành (GitHub Releases)](https://github.com/Huyphan68080/Mod-SoundCraft/releases):
+
+*   **Minecraft Mod**: Tải tệp `soundcraft-1.0.0.jar` và copy vào thư mục `.minecraft/mods/`.
+*   **Browser Extension**: Tải tệp `soundcraft-extension.zip`, giải nén ra thư mục bất kỳ, sau đó cài vào Chrome thông qua tính năng **Tải thư mục đã giải nén (Load unpacked)**.
+
+---
+
 ## 🚀 Tính năng nổi bật
 
 *   **Đồng bộ hóa thời gian thực**: Đồng bộ hóa tên bài hát, nghệ sĩ, URL ảnh bìa, trạng thái phát/tạm dừng và tiến trình phát nhạc (progress).

@@ -10,6 +10,15 @@
 
 ---
 
+## 📦 Downloads
+
+You can download the pre-compiled files directly from the [GitHub Releases Page](https://github.com/Huyphan68080/Mod-SoundCraft/releases):
+
+*   **Minecraft Mod**: Download `soundcraft-1.0.0.jar` and place it in your `.minecraft/mods/` folder.
+*   **Browser Extension**: Download the `soundcraft-extension.zip` file, extract it, and load it in Chrome via **Load unpacked**.
+
+---
+
 ## 🚀 Features
 
 *   **Real-Time Synchronization**: Syncs currently playing track title, artist, artwork cover URL, play/pause state, and progress.
