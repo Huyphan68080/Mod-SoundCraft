@@ -12,7 +12,17 @@
 
 ## 📦 Tải về (Downloads)
 
-Bạn có thể tải các bản build sẵn trực tiếp tại [Trang phát hành (GitHub Releases)](https://github.com/Huyphan68080/Mod-SoundCraft/releases):
+Bạn có thể tải các bản build sẵn trực tiếp tại [Trang phát hành (GitHub Releases)](https://github.com/Huyphan68080/Mod-SoundCraft/releases).
+
+<p align="left">
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+    <img src="https://img.shields.io/badge/Tải%20về-Minecraft%20Mod%20(.jar)-green?style=for-the-badge&logo=minecraft&logoColor=white" alt="Tải về Minecraft Mod" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+    <img src="https://img.shields.io/badge/Tải%20về-Browser%20Extension%20(.zip)-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tải về Browser Extension" />
+  </a>
+</p>
 
 *   **Minecraft Mod**: Tải tệp `soundcraft-1.0.0.jar` và copy vào thư mục `.minecraft/mods/`.
 *   **Browser Extension**: Tải tệp `soundcraft-extension.zip`, giải nén ra thư mục bất kỳ, sau đó cài vào Chrome thông qua tính năng **Tải thư mục đã giải nén (Load unpacked)**.

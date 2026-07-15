@@ -12,10 +12,20 @@
 
 ## 📦 Downloads
 
-You can download the pre-compiled files directly from the [GitHub Releases Page](https://github.com/Huyphan68080/Mod-SoundCraft/releases):
+You can download the pre-compiled files directly from the [GitHub Releases Page](https://github.com/Huyphan68080/Mod-SoundCraft/releases).
 
-*   **Minecraft Mod**: Download `soundcraft-1.0.0.jar` and place it in your `.minecraft/mods/` folder.
-*   **Browser Extension**: Download the `soundcraft-extension.zip` file, extract it, and load it in Chrome via **Load unpacked**.
+<p align="left">
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+    <img src="https://img.shields.io/badge/Download-Minecraft%20Mod%20(.jar)-green?style=for-the-badge&logo=minecraft&logoColor=white" alt="Download Minecraft Mod" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+    <img src="https://img.shields.io/badge/Download-Browser%20Extension%20(.zip)-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Download Browser Extension" />
+  </a>
+</p>
+
+*   **Minecraft Mod**: Place the downloaded `soundcraft-1.0.0.jar` file in your `.minecraft/mods/` folder.
+*   **Browser Extension**: Extract the downloaded `soundcraft-extension.zip` file and load it in Chrome via **Load unpacked**.
 
 ---
 
