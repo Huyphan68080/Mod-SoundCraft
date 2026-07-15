@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "soundcraft",
+  "name": "SoundCraft",
+  "version": "1.0.0",
+  "description": "Real-time SoundCloud sync & overlay for Minecraft",
+  "authors": [
+    "Antigravity"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.soundcraft.SoundCraft"
+    ],
+    "client": [
+      "com.soundcraft.client.SoundCraftClient"
+    ]
+  },
+  "mixins": [
+    "soundcraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20",
+    "java": ">=17"
+  }
+}

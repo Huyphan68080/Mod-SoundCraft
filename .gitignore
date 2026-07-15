@@ -1,0 +1,33 @@
+# Gradle files
+.gradle/
+build/
+
+# Java compile outputs & class files
+*.class
+*.jar
+!src/**/resources/**/*.jar
+dependency-reduced-pom.xml
+
+# IDE settings and configurations
+.idea/
+*.iml
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+bin/
+out/
+
+# Log files
+*.log
+logs/
+
+# Run directory for Minecraft client/server testing
+run/
+runs/
+
+# System specific files
+Thumbs.db
+.DS_Store

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "SoundCraft - Music Sync",
+  "version": "1.1",
+  "description": "Sync SoundCloud, Spotify, and YouTube music metadata and control playback from Minecraft via Local WebSocket.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://soundcloud.com/*",
+        "https://open.spotify.com/*",
+        "https://www.youtube.com/*",
+        "https://youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
