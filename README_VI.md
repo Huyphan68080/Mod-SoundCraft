@@ -1,31 +1,12 @@
 # SoundCraft
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-green?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft Version" />
   <img src="https://img.shields.io/badge/Fabric-0.16.0-blue?style=for-the-badge" alt="Fabric Loader" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
 </p>
 
 **SoundCraft** là một mod Fabric dành cho Minecraft giúp đồng bộ hóa nhạc thời gian thực trực tiếp vào game của bạn. Với sự hỗ trợ của một tiện ích mở rộng trình duyệt (extension) nhẹ đi kèm, mod có thể ghi nhận thông tin bài hát (tên bài, nghệ sĩ, ảnh bìa album, trạng thái phát nhạc) từ các nền tảng như **SoundCloud**, **Spotify**, và **YouTube**, sau đó hiển thị trên giao diện HUD đẹp mắt hoặc bảng điều khiển tương tác trong game. Bạn thậm chí có thể điều khiển trình phát nhạc bằng phím tắt hoặc giao diện GUI trong Minecraft!
-
----
-
-## 📦 Tải về (Downloads)
-
-Bạn có thể tải các bản build sẵn trực tiếp tại [Trang phát hành (GitHub Releases)](https://github.com/Huyphan68080/Mod-SoundCraft/releases).
-
-<p align="left">
-  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
-    <img src="https://img.shields.io/badge/Tải%20về-Minecraft%20Mod%20(.jar)-green?style=for-the-badge&logo=minecraft&logoColor=white" alt="Tải về Minecraft Mod" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
-    <img src="https://img.shields.io/badge/Tải%20về-Browser%20Extension%20(.zip)-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tải về Browser Extension" />
-  </a>
-</p>
-
-*   **Minecraft Mod**: Tải tệp `soundcraft-1.0.0.jar` và copy vào thư mục `.minecraft/mods/`.
-*   **Browser Extension**: Tải tệp `soundcraft-extension.zip`, giải nén ra thư mục bất kỳ, sau đó cài vào Chrome thông qua tính năng **Tải thư mục đã giải nén (Load unpacked)**.
 
 ---
 
@@ -53,6 +34,66 @@ Sử dụng các phím tắt mặc định sau khi đang ở trong trò chơi (k
 
 ---
 
+## 📥 Hướng dẫn cài đặt & Thiết lập
+
+Lựa chọn một trong các phương thức cài đặt dưới đây:
+
+### 📦 Tải bản cài đặt sẵn (Releases)
+
+Tải xuống trực tiếp các file đã được biên dịch sẵn:
+
+<p align="left">
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+    <img src="https://img.shields.io/badge/Tải%20về-Minecraft%20Mod%20(.jar)-green?style=for-the-badge&logo=minecraft&logoColor=white" alt="Tải về Minecraft Mod" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+    <img src="https://img.shields.io/badge/Tải%20về-Browser%20Extension%20(.zip)-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tải về Browser Extension" />
+  </a>
+</p>
+
+#### 1. Cài đặt Fabric Mod
+1. Tải về file `.jar` của Minecraft Mod bằng nút tải phía trên.
+2. Copy file `.jar` đó vào thư mục `.minecraft/mods/` của bạn.
+3. Chạy game Minecraft với Fabric Loader 0.16.0+ phiên bản 1.21.1.
+
+#### 2. Cài đặt Browser Extension
+*   **Cách A (Nhanh nhất)**:
+    1. Tải file Browser Extension `.zip` bằng nút tải phía trên và giải nén.
+    2. Mở trình duyệt và truy cập `chrome://extensions/`.
+    3. Bật **Chế độ dành cho nhà phát triển** (Developer mode) ở góc trên bên phải.
+    4. Nhấn **Tải thư mục đã giải nén** (Load unpacked) và chọn thư mục vừa giải nén.
+*   **Cách B (Từ mã nguồn đã clone)**:
+    1. Mở trình duyệt và truy cập `chrome://extensions/`.
+    2. Bật **Chế độ dành cho nhà phát triển** (Developer mode) ở góc trên bên phải.
+    3. Nhấn **Tải thư mục đã giải nén** (Load unpacked) và chọn thư mục `extension` nằm bên trong thư mục dự án đã clone.
+
+---
+
+### 🛠️ Tự biên dịch từ mã nguồn (Dành cho Lập trình viên)
+
+<details>
+<summary>Nhấn để xem hướng dẫn biên dịch</summary>
+
+#### Yêu cầu hệ thống
+*   Java 17 trở lên
+*   Gradle (được cung cấp sẵn qua Gradle wrapper)
+
+#### Biên dịch
+1. Clone mã nguồn dự án:
+   ```bash
+   git clone https://github.com/Huyphan68080/Mod-SoundCraft.git
+   cd Mod-SoundCraft
+   ```
+2. Build dự án bằng Gradle:
+   *   **Windows**: `.\gradlew build`
+   *   **Linux/macOS**: `./gradlew build`
+3. File `.jar` đã biên dịch sẽ nằm tại thư mục `build/libs/soundcraft-1.0.0.jar`. Hãy copy file này vào thư mục `.minecraft/mods/` của bạn.
+
+</details>
+
+---
+
 ## 🛠 Nguyên lý hoạt động (Kiến trúc)
 
 ```mermaid
@@ -68,49 +109,6 @@ graph TD
     ServiceWorker -->|Gửi lệnh đến tab| ContentScript
     ContentScript -->|Kích hoạt nút trên web| Browser
 ```
-
----
-
-## 📥 Hướng dẫn cài đặt
-
-Để thiết lập SoundCraft, bạn cần thực hiện 2 bước: cài đặt **Fabric Mod** trong Minecraft và cài đặt **Browser Extension** trên trình duyệt.
-
-### 1. Cài đặt Fabric Mod
-
-#### Yêu cầu hệ thống
-*   Java 17 trở lên
-*   Minecraft 1.21.1 (Fabric loader >= 0.16.0)
-
-#### Biên dịch từ mã nguồn (Compile)
-1. Clone mã nguồn của repository này về máy của bạn:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/SoundCraft.git
-   cd SoundCraft
-   ```
-2. Build mod bằng Gradle:
-   *   **Windows (PowerShell/CMD)**:
-       ```cmd
-       .\gradlew build
-       ```
-   *   **Linux/macOS**:
-       ```bash
-       ./gradlew build
-       ```
-3. Tìm file `.jar` đã biên dịch tại đường dẫn `build/libs/soundcraft-1.0.0.jar`.
-4. Copy file jar này vào thư mục mod của Minecraft tại `.minecraft/mods/`.
-
----
-
-### 2. Cài đặt Browser Extension
-
-Để nhận nhạc từ trình duyệt, hãy cài đặt extension Chrome dưới dạng unpack:
-
-1. Mở trình duyệt Chromium (Chrome, Edge, Brave, CocCoc, Opera).
-2. Truy cập địa chỉ `chrome://extensions/`.
-3. Bật **Chế độ dành cho nhà phát triển** (Developer mode) ở góc trên bên phải màn hình.
-4. Nhấn nút **Tải thư mục đã giải nén** (Load unpacked) ở góc trên bên trái.
-5. Chọn thư mục **`extension`** nằm ở thư mục gốc của dự án này.
-6. Extension đã sẵn sàng hoạt động! Nó sẽ tự động kết nối đến Minecraft mỗi khi bạn nghe nhạc trên các trang web được hỗ trợ.
 
 ---
 
