@@ -43,11 +43,11 @@ Lựa chọn một trong các phương thức cài đặt dưới đây:
 Tải xuống trực tiếp các file đã được biên dịch sẵn:
 
 <p align="left">
-  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest/download/soundcraft-1.0.0.jar">
     <img src="https://img.shields.io/badge/Tải%20về-Minecraft%20Mod%20(.jar)-green?style=for-the-badge&logo=minecraft&logoColor=white" alt="Tải về Minecraft Mod" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest/download/soundcraft-extension.zip">
     <img src="https://img.shields.io/badge/Tải%20về-Browser%20Extension%20(.zip)-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Tải về Browser Extension" />
   </a>
 </p>

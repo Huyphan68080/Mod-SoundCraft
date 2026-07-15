@@ -43,11 +43,11 @@ Choose one of the methods below to install SoundCraft:
 Get the latest build files directly:
 
 <p align="left">
-  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest/download/soundcraft-1.0.0.jar">
     <img src="https://img.shields.io/badge/Download-Minecraft%20Mod%20(.jar)-green?style=for-the-badge&logo=minecraft&logoColor=white" alt="Download Minecraft Mod" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest">
+  <a href="https://github.com/Huyphan68080/Mod-SoundCraft/releases/latest/download/soundcraft-extension.zip">
     <img src="https://img.shields.io/badge/Download-Browser%20Extension%20(.zip)-blue?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Download Browser Extension" />
   </a>
 </p>
